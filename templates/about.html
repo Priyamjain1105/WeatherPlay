@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    /* About Section Styling */
+    .about-section {
+        background: linear-gradient(135deg, #2193b0, #6dd5ed);
+        /* Gradient matching other sections */
+        color: #ffffff;
+        border-radius: 15px;
+        /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Subtle shadow */
+        padding: 30px 20px;
+        /* Padding for content */
+        margin: 30px 10%;
+        /* Margin for placement */
+    }
+
+    .about-section h1 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.5rem;
+        /* Larger font size for heading */
+        margin-bottom: 20px;
+        /* Space between heading and text */
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        /* Text shadow for depth */
+    }
+
+    .about-section p {
+        text-align: center;
+        font-size: 1.2rem;
+        /* Slightly larger font size for readability */
+        font-weight: 400;
+        line-height: 1.6;
+        /* Improved line height for readability */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+
+<!-- About Section -->
+<section class="about-section">
+    <h1>About</h1>
+    <p class="lead">
+        In this project, we use a machine learning algorithm called Gaussian Naive Bayes to predict whether it's
+        suitable to play a game based on weather conditions like outlook, temperature, humidity, and wind. The model is
+        trained on historical weather data, where each feature (like "Sunny" or "Rainy" for outlook) is converted into
+        numbers, and it learns the patterns associated with playing or not playing. Gaussian Naive Bayes assumes that
+        these features follow a normal distribution and calculates probabilities for each possible outcome based on
+        these features. When given new weather conditions, the model uses what it learned to predict whether it's a good
+        day to play, by determining which outcome (play or not play) is most likely based on the current conditions.
+    </p>
+</section>
+<section class="about-section">
+    <h1>Developers</h1>
+    <p class="lead">
+        Machine Learning Model: <b>Ojasvi Raj 23BAI10164</b> <br>
+        Full-Stack Development: <b>Priyam Jain 23BAI11158</b> <br>
+
+    </p>
+</section>
+<!-- About Section -->
+{% endblock %}

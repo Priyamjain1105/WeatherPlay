@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+
+
+
+
+{% block content %}
+<div>
+    <style>
+        .hel {
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            /* Gradient background */
+            height: 400px;
+            padding: 5%;
+            border-radius: 15px;
+            /* Rounded corners for the container */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* Add a more defined shadow */
+            font-family: 'Arial', sans-serif;
+            /* Set font family */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .input-group-text {
+            background-color: #ffffff;
+            /* White background for labels */
+            color: #333;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            /* Rounded left side */
+            padding: 10px 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Light shadow */
+        }
+
+        .form-select {
+            border: none;
+            border-radius: 0 5px 5px 0;
+            /* Rounded right side */
+            padding: 10px 20px;
+            transition: all 0.3s ease;
+            color: #333;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Light shadow */
+            appearance: none;
+            /* Remove default select styling */
+            cursor: pointer;
+            position: relative;
+            width: 100%;
+            max-width: 200px;
+            /* Set a max-width for the selects */
+        }
+
+        .form-select:hover,
+        .form-select:focus {
+            border-color: #34ace0;
+            /* Highlight border on hover/focus */
+            outline: none;
+            box-shadow: 0 0 5px rgba(52, 172, 224, 0.5);
+        }
+
+        .form-select::after {
+            content: '▼';
+            font-size: 12px;
+            color: #333;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+
+        option {
+            background-color: #f5f5f5;
+            /* Lighter background for options */
+            color: #333;
+        }
+
+        @media (max-width: 600px) {
+            .hel {
+                padding: 10%;
+            }
+
+            .input-group-text {
+                padding: 8px 15px;
+                font-size: 14px;
+            }
+
+            .form-select {
+                padding: 8px 15px;
+                font-size: 14px;
+            }
+        }
+
+        .btn-submit {
+            background-color: #ffdc73;
+            /* Button background */
+            color: #2193b0;
+            /* Button text color */
+            border: none;
+            border-radius: 5px;
+            /* Rounded button */
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 10px 20px;
+            /* Button padding */
+            margin-top: 20px;
+            /* Space above the button */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Button shadow */
+            transition: background-color 0.3s ease, color 0.3s ease;
+            /* Smooth transitions */
+        }
+
+        .btn-submit:hover,
+        .btn-submit:focus {
+            background-color: #2193b0;
+            /* Hover background color */
+            color: #ffffff;
+            /* Hover text color */
+            outline: none;
+            /* Remove outline */
+            text-decoration: none;
+            /* Remove underline */
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <form action="submit" method="post">
+            <div class="hel">
+                <div class="input-group">
+                    <label class="input-group-text" for="outlookSelect">Outlook</label>
+                    <select class="form-select" id="outlookSelect" name="outlook">
+                        <option selected disabled>Choose...</option>
+                        <option value="0">Overcast</option>
+                        <option value="1">Rainy</option>
+                        <option value="2">Sunny</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-group-text" for="tempSelect">Temp</label>
+                    <select class="form-select" id="tempSelect" name="temp">
+                        <option selected disabled>Choose...</option>
+                        <option value="0">Cool</option>
+                        <option value="1">Hot</option>
+                        <option value="2">Mild</option>
+
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-group-text" for="humiditySelect">Humidity</label>
+                    <select class="form-select" id="humiditySelect" name="humidity">
+                        <option selected disabled>Choose...</option>
+                        <option value="0">High</option>
+                        <option value="1">Normal</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-group-text" for="windySelect">Windy</label>
+                    <select class="form-select" id="windySelect" name="windy">
+                        <option selected disabled>Choose...</option>
+                        <option value="1">True</option>
+                        <option value="0">False</option>
+                    </select>
+                </div>
+                <button class="btn btn-submit">Submit</button> <!-- Submit Button -->
+            </div>
+
+        </form>
+</div>
+{% endblock %}
