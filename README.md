@@ -93,6 +93,8 @@ match-suitability-predictor/
 ## Prediction Page (Weather Not Suitable)
 ![WhatsApp Image 2024-08-01 at 21 50 38_202e6e0f](https://github.com/user-attachments/assets/d4f74ea4-0cff-48f5-8402-3f8c19c7a195)
 
-#License
-This project is licensed under the MIT License. See the <a>LICENSE</a> file for more details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
