@@ -115,7 +115,7 @@ WeatherPlay/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <div align="center">
-  <img src="https://media.giphy.com/media/l0HlNf9v4z9Eyfe7u/giphy.gif" width="200"/>
+  <img src="https://i2.wp.com/www.bestworldevents.com/wp-content/uploads/2020/05/Thank-You-gif-Free.gif?fit=2149%2C1414" width="200"/>
 </div>
 
 Feel free to suggest additional enhancements or provide feedback! Happy coding! 🎉
