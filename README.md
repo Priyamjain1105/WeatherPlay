@@ -99,13 +99,15 @@ WeatherPlay/
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](https://github.com/user-attachments/assets/aab879cd-af06-4497-b08d-ae70cac49ba9)
+![Home Page](![image](https://github.com/user-attachments/assets/a9e7fc12-412c-4197-a499-b35d8fba9c8f)
+
 
 ### Prediction Page (Weather Suitable)
-![Prediction Suitable](https://github.com/user-attachments/assets/f30b1b13-8d4c-4595-ae39-78e0366669b5)
+![Prediction Suitable](![image](https://github.com/user-attachments/assets/406437bd-46ad-43f7-9449-54e7026e9c97)
+
 
 ### Prediction Page (Weather Not Suitable)
-![Prediction Not Suitable](https://github.com/user-attachments/assets/d4f74ea4-0cff-48f5-8402-3f8c19c7a195)
+![Prediction Not Suitable](![image](https://github.com/user-attachments/assets/b18f601a-5750-4931-b0f8-8ac5ac58757d)
 
 ## 🌟 Contributors
 [![Contributors](https://contrib.rocks/image?repo=Priyamjain1105/WeatherPlay)](https://github.com/Priyamjain1105/WeatherPlay/graphs/contributors)
