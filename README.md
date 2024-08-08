@@ -1,7 +1,10 @@
 # WeatherPlay
 ![GitHub Contributors](https://img.shields.io/github/contributors/Priyamjain1105/WeatherPlay) 
-
 Welcome to the **WeatherPlay** project! This web application predicts whether it’s suitable to play a match based on weather conditions. Built with Python Flask, HTML, and CSS, it integrates a pre-trained Gaussian Naive Bayes machine learning model for accurate predictions.
+
+Thanks to these wonderful people for their contributions:
+
+[![Contributors](https://contrib.rocks/image?repo=Priyamjain1105/WeatherPlay)](https://github.com/Priyamjain1105/WeatherPlay/graphs/contributors)
 
 ## Project Overview
 
@@ -96,9 +99,7 @@ match-suitability-predictor/
 
 ## Contributors
 
-Thanks to these wonderful people for their contributions:
 
-[![Contributors](https://contrib.rocks/image?repo=Priyamjain1105/WeatherPlay)](https://github.com/Priyamjain1105/WeatherPlay/graphs/contributors)
 
 ## Project Description
 
