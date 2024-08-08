@@ -1,6 +1,5 @@
 # WeatherPlay 🌤️🎾
 
-[![GitHub Contributors](https://img.shields.io/github
 ![GitHub Contributors](https://img.shields.io/github/contributors/Priyamjain1105/WeatherPlay) 
 ![GitHub License](https://img.shields.io/github/license/Priyamjain1105/WeatherPlay)
 ![GitHub Stars](https://img.shields.io/github/stars/Priyamjain1105/WeatherPlay?style=social)
