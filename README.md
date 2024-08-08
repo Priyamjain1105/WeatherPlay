@@ -7,8 +7,9 @@
 Welcome to the **WeatherPlay** project! This web application predicts whether it’s suitable to play a match based on weather conditions. Built with Python Flask, HTML, and CSS, it integrates a pre-trained Gaussian Naive Bayes machine learning model for accurate predictions.
 
 <div align="center">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/26FPCXdkvDbKBbgOI/giphy.gif" width="500"/>
 </div>
+
 
 ## 🌟 Project Overview
 
